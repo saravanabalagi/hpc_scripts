@@ -91,6 +91,10 @@ Power=
 
 ## Additional References and FAQs
 
+1. [Submitting a basic Job](https://www.ichec.ie/academic/national-hpc/FAQ#2-how-do-i-submit-a-job-to-kay)
 1. [Selecting the number of CPUs and threads in SLURM sbatch](https://stackoverflow.com/a/51141287/3125070)
-2. [What does the --ntasks or -n tasks does in SLURM?](https://stackoverflow.com/a/53759961/3125070)
-3. [CÉCI FAQ](https://support.ceci-hpc.be/doc/_contents/SubmittingJobs/SlurmFAQ.html#Q05)
+1. [What does the --ntasks or -n tasks does in SLURM?](https://stackoverflow.com/a/53759961/3125070)
+1. [CÉCI FAQ](https://support.ceci-hpc.be/doc/_contents/SubmittingJobs/SlurmFAQ.html#Q05)
+1. [Running Interactive Jobs](http://geco.mines.edu/files/userguides/slurm/interactive.html)
+1. [Check node usages](https://www.ichec.ie/academic/national-hpc/documentation/check-node-utilization)
+1. [Task Farming](https://www.ichec.ie/academic/national-hpc/documentation/task-farming)
