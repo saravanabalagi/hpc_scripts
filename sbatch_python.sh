@@ -14,4 +14,4 @@ module load singularity/2.6.0
 
 export WORK='/ichec/work/nuim01/sarav'
 
-srun -n2 singularity exec --nv --contain --home "$HOME" --bind "$WORK/data/deep_learning":/data --bind "$WORK/projects/python":/projects $HOME/singularity/tf2.img /bin/sh ~/singularity/scripts/script_python_run.sh
+srun singularity exec --nv --contain --home "$HOME" --bind "$WORK/data/deep_learning":/data --bind "$WORK/projects/python":/projects $HOME/singularity/tf2.img /bin/sh ~/singularity/scripts/script_python_run.sh
