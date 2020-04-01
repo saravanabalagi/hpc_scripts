@@ -40,6 +40,9 @@ Note: If we directly use `echo "Node $SLURM_NODEID here: $(hostname)"` in the sb
 
 ```
 scontrol show job -d {{SLURM_JOB_ID}}
+
+# if you run only one job, then you could do, or see the details of first job then
+# scontrol show job -d $(squeue -u $(whoami) | awk 'NR>1 {print $1}')
 ```
 ```
 UserId=USER(UID) GroupId=GROUP(GID) MCS_label=N/A
